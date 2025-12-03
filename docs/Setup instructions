@@ -1,1 +1,24 @@
 
+How to Run the Project
+SecureShare 
+
+Ensure Firebase project is set up. (firebase.google.com)
+
+Install Visual Studio Code.
+Install GitBASH.
+In VSC, install Flutter and Dart extensions. 
+Move the project to a short, writable path (e.g., C:\src\garfriend).
+Run tests if you want: flutter test.
+Optional health check: flutter doctor
+Run flutter pub get which installs all the dependencies listed in your project’s pubspec.yaml file
+If you’re serving a built bundle, rebuild first: flutter build web.
+Start with flutter run -d chrome (or restart the current run with a hot restart/Shift+R).
+
+
+
+Run:
+
+flutter pub get
+flutter run -d chrome
+
+Web is required because download uses dart:html.
